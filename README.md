@@ -49,17 +49,16 @@ This project involves data exploration and analysis using Python to connect to a
 your-repo-name/
 │
 ├── data/
-│   ├── load_data.py/               
-│   └── process_data.py/         
+│   ├── load_data.py               # Script to load data from the database
+│   └── process_data.py            # Script for additional data processing
 │
 ├── db/                   
-│   ├── create_tables.py  
-│   ├── create_tables.py
-│   ├── db_connections.py
-│   ├── queries.py
-│   ├── insert_data.py
-│   └── views.py         
+│   ├── create_tables.py           # Script to create database tables
+│   ├── db_connections.py          # Database connection settings
+│   ├── queries.py                 # SQL queries for data exploration
+│   ├── insert_data.py             # Script to insert data into tables
+│   └── views.py                   # SQL views for simplified data access
 │
-├── main.py  
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
+├── main.py                        # Main script for running the data cleaning process
+├── requirements.txt               # Python dependencies
+└── README.md                      # Project documentation
