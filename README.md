@@ -7,7 +7,6 @@ This project involves data exploration and analysis using Python to connect to a
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Project Structure](#project-structure)
-- [License](#license)
 
 ## Technologies Used
 - **Python**: For data manipulation and analysis.
